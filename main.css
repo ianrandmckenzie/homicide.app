@@ -1,0 +1,17 @@
+a {
+  color: #dc3545!important
+}
+
+footer {
+  background-color: #343a40;
+}
+
+.br-1 {
+  border-right: 1px solid;
+  border-color: white;
+}
+
+.bl-1 {
+  border-left: 1px solid;
+  border-color: white;
+}

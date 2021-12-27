@@ -4,26 +4,116 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
+    <!-- Favicon (https://realfavicongenerator.net/) -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Open Source CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Project CSS -->
+    <link rel="stylesheet" href="./main.css">
 
-    <title>Hello, world!</title>
+    <title>Homicide App | Home</title>
   </head>
-  <body>
-    <h1>Homicide App</h1>
-    <p class="animated fadeInUp">The only app that serves sociopaths 100% legally. Sign up now and get your first homicide free!</p>
-    <button class="btn btn-primary" href="#signUpModal">Sign Up</button>
+  <body class="bg-dark text-light">
+    <div class="container pt-5">
+      <div class="row vh-100">
+        <div class="col-md-4 text-danger text-center align-self-center">
+          <i class="fas fa-tint fa-7x"></i>
+        </div>
+        <div class="col-md-8 align-self-center">
+          <h1><strong>Homicide App</strong></h1>
+          <p data-aos="fade-left">The only app that serves sociopaths 100% legally. Sign up now and get your first homicide free!</p>
+          <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#signUpModal">
+            Sign Up
+          </button>
+        </div>
+      </div>
+      <div class="row text-center vh-100">
+        <div class="col-12 align-self-center" data-aos="fade-up">
+          <h2><strong>The raw destructive power of Silicon Valley at your fingertips.</strong></h2>
+          <p>For decades, technologists have been erasing lives at scale through greed, negligence, and short-sightedness. Now you can satisfy your carnal desires through the same methods.</p>
+          <div class="row">
+            <div class="col-4 p-4"><i class="fas fa-skull fa-7x"></i></div>
+            <div class="col-4 p-4" data-aos="fade-down-left"><i class="fas fa-knife-kitchen fa-7x"></i></div>
+            <div class="col-4 p-4"><i class="fas fa-coffin fa-7x"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row vh-100">
+        <div class="col-md-5 offset-md-1 align-self-center">
+          <h2>The value of human life</h2>
+          <p>What is a life? Boiled down to its essence, it is experiences in trial, triumph, joy, and suffering. Our patented time-wasting technology is a system optimized for wasting peoples' time through methods already employed by technologists today!</p>
+          <ol>
+            <li>Unsolicited email spam</li>
+            <li>Unsolicited SMS spam</li>
+            <li>Untedetectable circumvention of Platform App Store policies to maximize notifications</li>
+            <li>Clickbait paired with value-less content</li>
+            <li>So much more in ways you never thought possible!</li>
+          </ol>
+        </div>
+        <div class="col-md-5 text-danger text-center align-self-center">
+          <div class="fa-7x">
+            <i class="fad fa-spinner fa-pulse" style="display: block; margin: 0 auto;"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row vh-100">
+        <div class="col-md-5 offset-md-1 text-center align-self-center" data-aos="fade-down">
+          <i class="fas fa-function fa-7x"></i>
+        </div>
+        <div class="col-md-5 align-self-center">
+          <h2>How it works</h2>
+          <p>Put simply, we can calculate the value of life in time. With a little bit of code and a server rented for $5/mo, we can inundate the internet with useless content that wastes so much time in the lives of millions that it <a href="https://ourworldindata.org/life-expectancy#:~:text=The%20United%20Nations%20estimate%20a,any%20country%20back%20in%201950." target="_blank">cumulatively amounts to 72 years, the average life expectancy of a human being.</a></p>
+          <h3>Human Life Equivalent</h3>
+          <p>We measure homicide in what we call Human Life Equivalent, or HLE. This means that you can indulge in the murder of children at a fantastic discount!</p>
+        </div>
+      </div>
+    </div>
 
-    <footer>
-      <div class="row">
-        <div class="col-6">This fictional website is copyright © <a href="https://ianrandmckenzie.com" target="_blank">@ianrandmckenzie</a>, all rights reserved.</div>
-        <div class="col-6">Inspired by the interactions, contemplations, implications, and creation of <a href="https://enderbook.com/" target="_blank">Enderbook, the social app for Minecrafters.</a></div>
+    <footer class="container-fluid">
+      <div class="row p-5 mt-5">
+        <div class="col-md-4 bl-1">This fictional website is copyright © <a href="https://ianrandmckenzie.com" target="_blank">@ianrandmckenzie</a>, all rights reserved. Learn more about the intention of this website on <a href="https://github.com/ianrandmckenzie/homicide.app" target="_blank">the README of this project's source code on GitHub.</a></div>
+        <div class="col-md-4 bl-1">Inspired by the interactions, contemplations, implications, and creation of <a href="https://enderbook.com/" target="_blank">Enderbook, the social app for Minecrafters.</a></div>
+        <!-- <div class="col-md-4 bl-1"></div> -->
       </div>
     </footer>
+    <!-- Open Source JS -->
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.js"></script>
+    <script src="https://kit.fontawesome.com/d3f4faa97e.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- Project JS -->
+    <script src="./main.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000
+      });
+    </script>
+    <div class="modal fade" id="signUpModal" tabindex="-1" aria-labelledby="signUpModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-header">
+            <h5 class="modal-title" id="signUpModalLabel">What the fuck?</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Jesus fucking christ, this is a fictional joke website. What the fuck is wrong with you?</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
