@@ -15,3 +15,7 @@ footer {
   border-left: 1px solid;
   border-color: white;
 }
+
+.primary-row {
+  min-height: 100vh;
+}
